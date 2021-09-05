@@ -32,8 +32,18 @@ questionThree =
   question: "What's my favorite color? ",
   answer: "Black"
 }
+questionFour = 
+{
+  question: "What is my favorite dish? ",
+  answer: "pasta"
+}
+questionFive = 
+{
+  question: "What is my phone's brand ? ",
+  answer: "OnePlus"
+}
 
-var knowMe = [questionOne, questionTwo, questionThree];     //Array
+var knowMe = [questionOne, questionTwo, questionThree, questionFour, questionFive];     //Array
 
 var i;
 for(i=0;i<knowMe.length;i++)
